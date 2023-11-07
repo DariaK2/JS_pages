@@ -26,9 +26,10 @@
     <td>
         <h3 align="center">Форма для алгоритмической задачи</h3>
         <p>Можно ли из бревна, имеющего диаметр поперечного сечения D, выпилить квадратный брус шириной A?</p>
-        <form action="https://www.google.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+        <form action="https://www.google.com/search?" id="UserEnter" name="UserEnter" method="get">
+            <input name="q" type="hidden" value="search">
+            <input name="formulation" type="hidden" value="">
             <ul>
-                <li>для поисковика:<input name="q" value="search"></li>
                 <li>формулировка задачи <input name="formulation"
                                                value="Можно ли из бревна, имеющего диаметр поперечного сечения D, выпилить квадратный брус шириной A? Если принадлежит - отправить все на сервер">
                 </li>
