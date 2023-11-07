@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Алгоритмическая задача</title>
+</head>
+<body>
+
+<table align="center" border="1" cellpadding="5" cellspacing="1" width="600px"
+
+       <tr>
+           <td>Заголовок всего сайта</td>
+       </tr>
+
+
+       <tr>
+           <td>Ссылки на все страницы сайта</td>
+       </tr>
+<tr>
+    <td>
+        <!--Уникальное содержание страницы-->
+        <h3 align="center">Решение алгоритмической задачи</h3>
+        <p>Можно ли из бревна, имеющего диаметр поперечного сечения D, выпилить квадратный брус шириной A?
+</p>
+        <p>Значение A: <span id="a">1</span></p>
+        <p>Значение D: <span id="d">2</span></p>
+
+        <p>Результат: <span id="result"></span></p>
+        <p id="verify">Оценить</p>
+    </td>
+</tr>
+<td>Нижний блок сайта</td>
+</table>
+</body>
+<script src="./js/abc.js"></script>
+</html>
