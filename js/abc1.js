@@ -50,15 +50,5 @@ console.log(messageText)
 let result;
 let check = false;
 
-
-//const elementA = document.getElementById("a");
-//elementA.addEventListener('input', verify);
-//
-//const elementB = document.getElementById("d");
-//elementB.addEventListener('input', verify);
-//
-//const elementVerify = document.getElementById("verify");
-//elementVerify.addEventListener('click', verify);
-
 const elementSend = document.getElementById("send");
 elementSend.addEventListener('click', send)
